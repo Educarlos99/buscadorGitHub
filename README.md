@@ -1,2 +1,3 @@
-# buscadorGitHub
-Um buscador de repositórios GitHub
+# BuscadorGitHub
+
+Um buscador de repositórios GitHub, este projeto é realizado com ajuda de IA.
