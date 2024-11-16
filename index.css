@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f8fa; /* Cor de fundo clara semelhante ao GitHub */
+  color: #24292e; /* Texto na cor preta principal do GitHub */
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Estilização do main container */
+main {
+  background-color: #ffffff; /* Fundo branco */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Título principal */
+h1 {
+  color: #0366d6; /* Azul típico do GitHub */
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+
+/* Estilização do input de texto */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5da;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #0366d6; /* Realce azul */
+}
+
+/* Estilização do botão */
+button {
+  background-color: #24292e; /* Preto típico do GitHub */
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0366d6; /* Azul típico do GitHub ao passar o mouse */
+}
+
+/* Estilização da área de resultados */
+#resultado {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#resultado h2 {
+  color: #0366d6;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#resultado img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Estilização de links */
+a {
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  main {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  #resultado h2 {
+    font-size: 1.3em;
+  }
+}
